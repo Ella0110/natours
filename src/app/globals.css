@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.clip-path-custom {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
