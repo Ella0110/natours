@@ -16,7 +16,7 @@ export default function Header() {
           height={100}
         ></Image>
       </div>
-      <div className="absolute top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute move_to_center">
         <h1 className="text-white uppercase mb-14">
           <span className="block text-7xl font-normal tracking-[2rem] move-in-left py-6">
             Outdoors
