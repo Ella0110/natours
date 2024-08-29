@@ -31,6 +31,18 @@ body {
     text-wrap: balance;
   }
 
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .rotate-y-neg-180 {
+    transform: rotateY(-180deg);
+  }
+
+  .rotate-y-0 {
+    transform: rotateY(0);
+  }
+
   @keyframes moveInLeft {
     0% {
       opacity: 0;
@@ -103,6 +115,10 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
+.clip-path-card {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
+}
+
 .icon-basic-world {
   @apply text-green-600 text-5xl;
 }
@@ -117,4 +133,25 @@ body {
 
 .icon-basic-video {
   @apply text-green-600 text-5xl;
+}
+
+.heading-secondary {
+  @apply text-4xl uppercase font-bold inline-block bg-gradient-to-r from-emerald-400 to-lime-500 bg-clip-text text-transparent tracking-[2px] transition-all;
+  @apply hover:skew-y-1 hover:skew-x-12 hover:scale-[1.1];
+}
+
+.perspective-custom {
+  perspective:150rem;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.move_to_center {
+  @apply top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2;
 }
