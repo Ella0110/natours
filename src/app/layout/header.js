@@ -5,10 +5,8 @@ import Button from "../component/Button";
 export default function Header() {
   return (
     <header
-      className="relative h-[95vh] clip-path-custom bg-cover bg-[url('/img/hero-small.jpg')] 
-    before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-r
-    before:from-emerald-400 before:to-lime-500 before:opacity-75 before:z-[-5]"
-    >
+    className="relative clip-path-custom bg-cover h-[95vh] 
+    bg-[linear-gradient(to_right_bottom,rgba(52,211,153,0.8),rgba(163,230,53,0.8)),url('/img/hero-small.jpg')]">
       {/* t-4 = 1rem */}
       <div className="absolute top-16 left-16 z-20">
         <Image
