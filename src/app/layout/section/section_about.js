@@ -3,7 +3,7 @@ import Button from "@/app/component/Button";
 
 export default function Section_About() {
     return (
-      <section className="bg-white h-[95vh] py-56 -mt-[20vh]">
+      <section className="bg-white py-60 -mt-[20vh]">
         <div className="text-center mb-20">
           <h2
             className="text-4xl uppercase font-bold inline-block bg-gradient-to-r 
