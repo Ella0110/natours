@@ -6,9 +6,7 @@ export default function Section_About() {
       <section className="bg-white py-60 -mt-[20vh]">
         <div className="text-center mb-20">
           <h2
-            className="text-4xl uppercase font-bold inline-block bg-gradient-to-r 
-                from-emerald-400 to-lime-500 bg-clip-text text-transparent tracking-[2px] transition-all
-                hover: skew-y-1 hover:skew-x-12 hover:scale-[1.1]"
+            className="heading-secondary"
           >
             Exciting tours for adcanturous people
           </h2>
