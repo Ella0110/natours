@@ -102,3 +102,19 @@ body {
 .clip-path-custom {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
+
+.icon-basic-world {
+  @apply text-green-600 text-5xl;
+}
+
+.icon-basic-heart {
+  @apply text-green-600 text-5xl;
+}
+
+.icon-basic-home {
+  @apply text-green-600 text-5xl;
+}
+
+.icon-basic-video {
+  @apply text-green-600 text-5xl;
+}
