@@ -31,7 +31,7 @@ export default function Section_About() {
               corporis aliquid deleniti voluptatem labore asperiores in
               consectetur ut. Itaque, vel excepturi.
             </p>
-            <Button href="#" variant="text" size="small">
+            <Button href="#" variant="text" size="text">
               Learn more&rarr;
             </Button>
           </div>
