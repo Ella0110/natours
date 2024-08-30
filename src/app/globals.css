@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@layer components {
+  input:focus:invalid {
+    @apply border-b-[3px]; /* 使用 Tailwind CSS 边框厚度类 */
+    border-bottom-color: #ff7730  /* 替换 #色码 为 $color-secondary-dark 对应的颜色 */
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -41,6 +48,12 @@ body {
 
   .rotate-y-0 {
     transform: rotateY(0);
+  }
+
+  .bg-custom-gradient {
+    background: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 50%, transparent 50%), url('/img/nat-10.jpg');
+    background-size: cover;
+    background-position: center;
   }
 
   @keyframes moveInLeft {
@@ -119,6 +132,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
 }
 
+/* change the first element in circle can make the circle zoom in/out */
 .clip-path-circle {
   clip-path: circle(30% at 50% 50%);
 }
