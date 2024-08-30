@@ -16,15 +16,15 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+      transparent 50%,
+      rgb(var(--background-end-rgb), 0.5)
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 @layer components {
   input:focus:invalid {
@@ -48,6 +48,11 @@ body {
 
   .rotate-y-0 {
     transform: rotateY(0);
+  }
+
+  .bg-button-gradient {
+    background: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 220%;
   }
 
   .bg-custom-gradient {
