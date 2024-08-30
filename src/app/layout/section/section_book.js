@@ -2,7 +2,7 @@ import Button from "@/app/component/Button";
 
 export default function Section_Book() {
   return (
-    <section className="p-40 bg-gradient-to-tr from-lime-400 to-green-500">
+    <section className="p-40 bg-gradient-to-tr from-lime-500 to-green-500">
       <div className="max-w-[70rem] mx-auto">
         <div className="bg-custom-gradient rounded-sm shadow-xl">
           <div className="w-1/2 p-10">
