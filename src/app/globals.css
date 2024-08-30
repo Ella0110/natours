@@ -119,6 +119,10 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
 }
 
+.clip-path-circle {
+  clip-path: circle(30% at 50% 50%);
+}
+
 .icon-basic-world {
   @apply text-green-600 text-5xl;
 }
@@ -155,3 +159,8 @@ body {
 .move_to_center {
   @apply top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2;
 }
+.shape-outside {
+  shape-outside: circle(50% at 50% 50%);
+}
+
+
