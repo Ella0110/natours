@@ -1,4 +1,4 @@
-const Button = ({ href, onClick, children, className, variant = 'primary', size = 'small', ...porps}) => {
+const Button = ({ href, onClick, children, className, variant = 'white', size = 'small', ...porps}) => {
     const baseStyle = "move-in-bottom uppercase inline-block transition-all hover:-translate-y-1 hover:shadow-black hover:drop-shadow-xl active:translate-y-0.5"
 
     const variants = {
@@ -10,7 +10,8 @@ const Button = ({ href, onClick, children, className, variant = 'primary', size 
     const sizes = {
         small: "py-2 px-4 text-sm",
         medium: "py-4 px-8 text-base",
-        large: "py-6 px-12 text-lg"
+        large: "py-6 px-12 text-lg",
+        text: "py-4 px-1 text-sm"
     }
 
     const classNames = `${baseStyle} ${variants[variant]} ${sizes[size]} ${className}`;
