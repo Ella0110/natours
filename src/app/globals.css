@@ -181,5 +181,9 @@
 .shape-outside {
   shape-outside: circle(50% at 50% 50%);
 }
+.column-rule {
+  column-rule: 1px solid rgba(153,153,153,0.2);
+}
+
 
 
