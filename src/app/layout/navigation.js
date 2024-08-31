@@ -4,7 +4,7 @@ export default function Navigation() {
       <input type="checkbox" className="hidden peer" id="navi-toggle" />
       <label
         for="navi-toggle"
-        className=" flex items-center justify-center bg-white h-16 w-16 fixed top-12 right-12 rounded-full z-50
+        className=" flex items-center justify-center bg-white h-16 w-16 fixed top-12 right-12 rounded-full z-40
           shadow-lg cursor-pointer group"
       >
         {/* !!! new knowledge:group-[.peer:checked+&]: !!!*/}
@@ -29,14 +29,14 @@ export default function Navigation() {
         </span>
       </label>
       <div
-        className="h-12 w-12 rounded-full fixed top-14 right-14 z-30 transition-transform duration-500
+        className="h-12 w-12 rounded-full fixed top-14 right-14 z-20 transition-transform duration-500
       bg-gradient-radial from-lime-400 to-emerald-500 peer-checked:scale-[10000%]"
       >
         &nbsp;
       </div>
 
       <nav
-        className="h-[100vh] w-full fixed top-0 left-0 z-40 opacity-0 hidden transition-all duration-700
+        className="h-[100vh] w-full fixed top-0 left-0 z-30 opacity-0 hidden transition-all duration-700
       move-in-left peer-checked:opacity-100 peer-checked:block"
       >
         <ul className="absolute move_to_center w-full">
