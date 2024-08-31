@@ -3,7 +3,7 @@ import Card from "@/app/component/card";
 
 export default function Section_Tours() {
   return (
-    <section className="pt-60 pb-60 -mt-40 bg-white">
+    <section className="pt-60 pb-60 -mt-40 bg-white" id="section-tours">
       <div className="text-center mb-20">
         <h2 className="heading-secondary">Most Popular Tours</h2>
       </div>
