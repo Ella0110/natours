@@ -1,4 +1,5 @@
 import Button from "./Button";
+
 const Card = ({
   gradientImg,
   gradientColor,
@@ -51,7 +52,7 @@ const Card = ({
             <p className="text-sm p-4">Only</p>
             <p className="text-7xl font-thin">{cardPrice}</p>
           </div>
-          <Button href="" variant="white" size="medium">
+          <Button href="#popup" variant="white" size="medium">
             Book now!
           </Button>
         </div>
@@ -59,5 +60,7 @@ const Card = ({
     </div>
   );
 };
+
+
 
 export default Card;
