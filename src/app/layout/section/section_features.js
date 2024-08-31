@@ -17,21 +17,21 @@ export default function Section_Features() {
         <div className="basis-1/5">
           <Feature_Box
             FeatureIcon="icon-basic-heart"
-            Heading="Explore the lighting"
+            Heading="Explore the world"
             Paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiasveniam hic "
           ></Feature_Box>
         </div>
         <div className="basis-1/5">
           <Feature_Box
             FeatureIcon="icon-basic-home"
-            Heading="Explore the lighting"
+            Heading="Explore the Home"
             Paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiasveniam hic "
           ></Feature_Box>
         </div>
         <div className="basis-1/5">
           <Feature_Box
             FeatureIcon="icon-basic-video"
-            Heading="Explore the lighting"
+            Heading="Explore the Camera"
             Paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiasveniam hic "
           ></Feature_Box>
         </div>

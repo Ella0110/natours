@@ -8,6 +8,7 @@ export default function Section_Story() {
         <video className="h-full w-full object-cover" autoPlay muted loop>
           <source src="/img/video.mp4" type="video/mp4" />
           <source src="/img/video.webm" type="video/webm" />
+          Your browser is not supported!
         </video>
       </div>
 
@@ -74,7 +75,7 @@ export default function Section_Story() {
           </figure>
           <div className="skew-x-12">
             <h3 className="text-base font-bold uppercase mb-4">
-              I had the best week ever than here
+            Wow! My journey have already started!
             </h3>
             <p className="paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

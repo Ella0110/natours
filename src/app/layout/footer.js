@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
         <div className="w-[45%]">
           <p className="border-t-2 border-solid border-gray-500 text-gray-300 pt-4 w-4/5 float-right">
-            Built by{" "}
+          Built by {" "}
             <a
               href="#"
               className="
@@ -87,7 +87,7 @@ export default function Footer() {
             >
               Ella
             </a>{" "}
-            for her online practice{" "}
+            as part of an online practice project for the {" "}
             <a
               href="#"
               className="
@@ -96,12 +96,15 @@ export default function Footer() {
                         active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]
                         "
             >
-              Advanced CSS and Sass
-            </a>
-            . Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
+              Advanced CSS and Sass 
+            </a>{" "}
+             course. Copyright &copy; Jonas Schmedtmann. You are 100% allowed to use
             this webpage for both personal and commercial use, but NOT to claim
-            it as your own design. A credit to the original author, Jonas
-            Schmedtmann, is of course highly appreciated!
+            it as your own design. Attribution to the original creator, Jonas Schmedtmann, is appreciated!
+
+
+
+            
           </p>
         </div>
       </div>

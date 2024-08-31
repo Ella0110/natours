@@ -68,7 +68,7 @@ export default function Section_Book() {
                   <div className="absolute w-4 h-4 rounded-full  top-2 left-2 z-20 
                   pointer-events-none peer-checked:bg-green-500"></div>
                   <label for="large" className="absolute text-base cursor-pointer pl-4 top-1">
-                      Small tour group
+                      Large tour group
                   </label>
                 </div>
               </div>
