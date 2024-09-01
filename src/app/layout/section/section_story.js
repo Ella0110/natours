@@ -1,13 +1,15 @@
 import Button from "@/app/component/Button";
 import Image from "next/image";
+import nextConfig from "../../../../next.config.mjs";
+
 export default function Section_Story() {
   return (
     <section className="p-40 relative">
       <div className="absolute top-0 left-0 h-full w-full z-[-1] opacity-15">
         {/*video can not play because should be 'autoPlay' not 'autoplay', it should be 'P' because of JSX*/}
         <video className="h-full w-full object-cover" autoPlay muted loop>
-          <source src="/img/video.mp4" type="video/mp4" />
-          <source src="/img/video.webm" type="video/webm" />
+          <source src={`${nextConfig.basePath}/img/video.mp4`} type="video/mp4" />
+          <source src={`${nextConfig.basePath}/img/video.webm`} type="video/webm" />
           Your browser is not supported!
         </video>
       </div>
@@ -22,7 +24,7 @@ export default function Section_Story() {
           {/*story-shape*/}
           <figure className="relative w-60 h-60  float-left shape-outside clip-path-circle -translate-x-7 -translate-y-6  skew-x-12">
             <Image
-              src="/img/nat-8.jpg"
+              src={`${nextConfig.basePath}/img/nat-8.jpg`}
               alt="Person on a tour"
               width={400}
               height={400}
@@ -58,7 +60,7 @@ export default function Section_Story() {
           {/*story-shape*/}
           <figure className="relative w-60 h-60  float-left shape-outside clip-path-circle -translate-x-7 -translate-y-6  skew-x-12">
             <Image
-              src="/img/nat-9.jpg"
+              src={`${nextConfig.basePath}/img/nat-9.jpg`}
               alt="Person on a tour"
               width={400}
               height={400}

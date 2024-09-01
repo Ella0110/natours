@@ -55,12 +55,6 @@
     background-size: 220%;
   }
 
-  .bg-custom-gradient {
-    background: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 50%, transparent 50%), url('/img/nat-10.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-
   @keyframes moveInLeft {
     0% {
       opacity: 0;

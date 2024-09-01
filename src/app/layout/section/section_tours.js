@@ -13,7 +13,7 @@ export default function Section_Tours() {
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card
-          gradientImg = "bg-[linear-gradient(to_right_bottom,rgba(255,185,0),rgba(255,119,48)),url('/img/nat-5.jpg')]"
+          gradientImg = "bg-nat-5"
           gradientColor = "bg-gradient-to-tr from-yellow-400 to-orange-500"
           cardHeading = "The Sea Explorer"
           cardDetail_1 = "3 day tours"
@@ -28,7 +28,7 @@ export default function Section_Tours() {
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card
-          gradientImg = "bg-[linear-gradient(to_right_bottom,rgba(52,211,153),rgba(163,230,53)),url('/img/nat-6.jpg')]"
+          gradientImg = "bg-nat-6"
           gradientColor = "bg-gradient-to-tr from-lime-400 to-green-500"
           cardHeading = "The Forest Hiker"
           cardDetail_1 = "6 day tours"
@@ -43,7 +43,7 @@ export default function Section_Tours() {
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card
-          gradientImg = "bg-[linear-gradient(to_right_bottom,rgba(41,151,255),rgba(86,67,250)),url('/img/nat-7.jpg')]"
+          gradientImg = "bg-nat-7"
           gradientColor = "bg-gradient-to-tr from-blue-400 to-purple-500"
           cardHeading = "The Snow Advanture"
           cardDetail_1 = "9 day tours"

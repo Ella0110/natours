@@ -1,5 +1,6 @@
 import Button from "@/app/component/Button";
 import Image from "next/image";
+import nextConfig from "../../../next.config.mjs";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="text-center mb-16">
         <picture className="w-32 h-auto inline-block">
           <Image
-            src="/img/logo-green-2x.png"
+            src={`${nextConfig.basePath}/img/logo-green-2x.png`}
             alt="Full logo"
             width={200}
             height={200}

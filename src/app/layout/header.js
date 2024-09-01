@@ -1,16 +1,16 @@
 import Image from "next/image";
 // import GradientBackground from "../component/GradientBackground";
 import Button from "../component/Button";
+import nextConfig from "../../../next.config.mjs";
 
 export default function Header() {
   return (
     <header
-    className="relative clip-path-custom bg-cover h-[95vh] 
-    bg-[linear-gradient(to_right_bottom,rgba(52,211,153,0.8),rgba(163,230,53,0.8)),url('/img/hero-small.jpg')]">
+    className="relative clip-path-custom bg-cover h-[95vh] bg-hero">
       {/* t-4 = 1rem */}
       <div className="absolute top-16 left-16 z-20">
         <Image
-          src="/img/logo-white.png"
+          src={`${nextConfig.basePath}/img/logo-white.png`}
           alt="logo"
           width={100}
           height={100}
