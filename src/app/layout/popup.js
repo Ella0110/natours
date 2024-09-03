@@ -29,8 +29,6 @@ export default function Popup() {
           <h3 className="text-base font-bold uppercase mb-6">Important &ndash; Please read these terms before booking</h3>
           <p className="text-base mb-16 columns-2 gap-x-16 column-rule">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi amet ea, illum officiis maiores quam aperiam tempore a et ab adipisci distinctio nam. Recusandae fuga doloribus eum exercitationem quam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dolorum deleniti atque labore eum, quod, dolorem temporibus nostrum ipsa corporis sequi facere ducimus! Praesentium eligendi dicta quasi deserunt, vero pariatur.</p>
           <Button href="#section-tours" variant="green" size="medium">Book now!</Button>
-
-
         </div>
 
       </div>
