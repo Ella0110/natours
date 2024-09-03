@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import Button from "../component/Button"
+import nextConfig from "../../../next.config.mjs"
 
 export default function Popup() {
 
@@ -15,9 +16,9 @@ export default function Popup() {
       group-target:-translate-x-1/2 group-target:-translate-y-1/2
        group-target:transition-all group-target:duration-700">
         <div className="w-1/3 table-cell">
-          <Image src="/img/nat-8.jpg" alt="TOUR PHOTO" width={200} height={200} 
+          <Image src={`${nextConfig.basePath}/img/nat-8.jpg`} alt="TOUR PHOTO" width={800} height={800} 
           className="w-full h-full block"/>
-          <Image src="/img/nat-9.jpg" alt="TOUR PHOTO" width={200} height={200} 
+          <Image src={`${nextConfig.basePath}/img/nat-9.jpg`} alt="TOUR PHOTO" width={800} height={800} 
           className="w-full h-full block"/>
         </div>
 
