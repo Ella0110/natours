@@ -30,7 +30,7 @@ export default function Navigation() {
       </label>
       <div
         className="h-12 w-12 rounded-full fixed top-14 right-14 z-20 transition-transform duration-500
-      bg-gradient-radial from-lime-400 to-emerald-500 peer-checked:scale-[10000%]"
+      bg-gradient-radial from-lime-400 to-emerald-500 peer-checked:scale-[1000000%]"
       >
         &nbsp;
       </div>
