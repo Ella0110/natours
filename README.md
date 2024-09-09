@@ -1,56 +1,39 @@
-# Natours
+# Trillo
 
-A visually stunning and fully responsive travel website built using Next.js and Tailwind CSS. This project is inspired by the "Advanced CSS and Sass" course, focusing on creating a modern and immersive web experience.
-
-## Demo
-
-Check out the live demo of the Natours website [here](https://ella0110.github.io/natours/).
+A modern, responsive travel booking website built using **Next.js**, **React**, and **Tailwind CSS**. This project is a refactor of the original design from the "Advanced CSS and Sass" course.
 
 ## Features
 
-- **Next.js**: Utilized for server-side rendering and optimized performance.
-- **Tailwind CSS**: Employed to create a responsive, clean, and modern design with utility-first principles.
-- **Responsive Design**: Fully responsive layout that adapts to various screen sizes and devices.
-- **Modern CSS Techniques**: Includes animations, transitions, and other CSS features to enhance user interaction.
-- **Component-Based Architecture**: Organized code structure for easy maintenance and scalability.
+- Responsive layout with Tailwind CSS
+- Reusable React components
+- Modern design with CSS Grid & Flexbox
 
-## Installation
+## Technologies
 
-To run this project locally, follow these steps:
+- **Next.js**: Framework for server-rendered React apps.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework.
 
-1. Clone the repository:
+## Getting Started
 
+1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Ella0110/natours.git
+    git clone https://github.com/Ella0110/trillo.git
+    cd trillo
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd natours
-    ```
-
-3. Install the dependencies:
-
+2. **Install dependencies**:
     ```bash
     npm install
     ```
 
-4. Start the development server:
-
+3. **Start the development server**:
     ```bash
     npm run dev
     ```
 
-    The project will be available at `http://localhost:3000`.
+4. Open `http://localhost:3000` in your browser to view the app.
 
-## Technologies Used
+## License
 
-- **Next.js**: A React framework for server-side rendering and static site generation.
-- **Tailwind CSS**: A utility-first CSS framework for building custom designs quickly.
-- **JavaScript**: Used for interactivity and logic implementation.
-- **HTML & CSS**: The structure and styling of the website.
-
-## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Any improvements or suggestions are welcome!
+This project is licensed under the MIT License.
