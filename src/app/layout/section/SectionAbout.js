@@ -2,7 +2,7 @@ import Image from "next/image";
 import Button from "@/app/component/Button";
 import nextConfig from "../../../../next.config.mjs";
 
-export default function Section_About() {
+export default function SectionAbout() {
   return (
     <section className="bg-white py-60 -mt-[20vh]">
       <div className="text-center mb-20">

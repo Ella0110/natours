@@ -1,6 +1,7 @@
 import Button from "@/app/component/Button";
+import Radio from "@/app/component/Radio";
 
-export default function Section_Book() {
+export default function SectionBook() {
   return (
     <section className="p-40 bg-gradient-to-tr from-lime-500 to-green-500">
       <div className="max-w-[70rem] mx-auto">
@@ -16,6 +17,7 @@ export default function Section_Book() {
                   type="text"
                   placeholder="Full name"
                   id="name"
+                  name=""
                   required
                   className="text-base p-3 text-inherit rounded-sm block border-b-2 border-b-transparent
                                 w-4/5 transition-all bg-white bg-opacity-50 border-none focus:shadow-sm peer
@@ -52,27 +54,14 @@ export default function Section_Book() {
               </div>
 
               <div className="mb-6">
-                <div className="w-1/2 inline-block relative">
-                  <input type="radio" id="small" name="size" 
-                  className="appearance-none peer w-8 h-8 border-[4px] border-green-500 rounded-full" />
-                  <div className="absolute w-4 h-4 rounded-full  top-2 left-2 z-20 
-                  pointer-events-none peer-checked:bg-green-500"></div>
-                  <label for="small" className="absolute text-base cursor-pointer pl-4 top-1">
-                      Small tour group
-                  </label>
-                </div>
+                <Radio 
+                  radioName="Small tour group"
+                />
 
-                <div className="w-1/2 inline-block relative">
-                  <input type="radio" id="large" name="size" 
-                  className="appearance-none peer w-8 h-8 border-[4px] border-green-500 rounded-full" />
-                  <div className="absolute w-4 h-4 rounded-full  top-2 left-2 z-20 
-                  pointer-events-none peer-checked:bg-green-500"></div>
-                  <label for="large" className="absolute text-base cursor-pointer pl-4 top-1">
-                      Large tour group
-                  </label>
-                </div>
+                <Radio 
+                  radioName="Large tour group"
+                />
               </div>
-
             </form>
           </div>
         </div>
@@ -81,11 +70,3 @@ export default function Section_Book() {
     //
   );
 }
-
-
-                      {/* <span className="h-4 w-4 
-                         peer-checked/small:bg-green-500
-                      outline-[6px] outline outline-offset-4 outline-green-500
-                      rounded-full inline-block absolute -top-1 left-0"></span> */}
-
-                                        {/* border-solid border-[6px] border-green-500  */}
