@@ -3,19 +3,15 @@
 import Image from "next/image"
 import Button from "../component/Button"
 import nextConfig from "../../../next.config.mjs"
+import PopupBox from "../component/PopupBox"
 
 export default function Popup() {
 
   return (
-    <div id="popup" className="h-[100vh] w-full  z-40 top-0 left-0 fixed opacity-0 hidden
-    target:opacity-100 target:visible target:block group">
-      <div className="h-[100vh] w-full backdrop-blur-md"></div>
-      <div className="bg-white w-3/4 rounded-sm absolute move_to_center scale-50 shadow-lg opacity-0
-      overflow-hidden transition-all table duration-900 z-50
-      group-target:opacity-100 group-target:visible group-target:scale-100 
-      group-target:-translate-x-1/2 group-target:-translate-y-1/2
-       group-target:transition-all group-target:duration-700">
-        <div className="w-1/3 table-cell">
+
+    <PopupBox>
+
+      <div className="w-1/3 table-cell">
           <Image src={`${nextConfig.basePath}/img/nat-8.jpg`} alt="TOUR PHOTO" width={800} height={800} 
           className="w-full h-full block"/>
           <Image src={`${nextConfig.basePath}/img/nat-9.jpg`} alt="TOUR PHOTO" width={800} height={800} 
@@ -31,8 +27,6 @@ export default function Popup() {
           <Button href="#section-tours" variant="green" size="medium">Book now!</Button>
         </div>
 
-      </div>
-
-    </div>
+    </PopupBox>
   )
 }
