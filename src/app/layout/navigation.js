@@ -40,65 +40,27 @@ export default function Navigation() {
       move-in-left peer-checked:opacity-100 peer-checked:block"
       >
         <ul className="absolute move_to_center w-full">
-          <li className="my-10">
-            <a
-              href="#"
-              className="inline-block text-3xl font-light text-white py-2 px-5
-             uppercase bg-button-gradient transition-all duration-500 
-             hover:bg-right hover:text-green-500 hover:translate-x-2
-             active:bg-right active:text-green-500 active:translate-x-2"
-            >
-              <span className="mr-3">01</span>About Natour
-            </a>
-          </li>
 
-          <li className="my-10">
-            <a
-              href="#"
-              className="inline-block text-3xl font-light text-white py-2 px-5
-             uppercase bg-button-gradient transition-all duration-500 
-             hover:bg-right hover:text-green-500 hover:translate-x-2
-             active:bg-right active:text-green-500 active:translate-x-2"
-            >
-              <span className="mr-3">02</span>Your benifits
-            </a>
-          </li>
-
-          <li className="my-10">
-            <a
-              href="#"
-              className="inline-block text-3xl font-light text-white py-2 px-5
-             uppercase bg-button-gradient transition-all duration-500 
-             hover:bg-right hover:text-green-500 hover:translate-x-2
-             active:bg-right active:text-green-500 active:translate-x-2"
-            >
-              <span className="mr-3">03</span>Popular tours
-            </a>
-          </li>
-
-          <li className="my-10">
-            <a
-              href="#"
-              className="inline-block text-3xl font-light text-white py-2 px-5
-             uppercase bg-button-gradient transition-all duration-500 
-             hover:bg-right hover:text-green-500 hover:translate-x-2
-             active:bg-right active:text-green-500 active:translate-x-2"
-            >
-              <span className="mr-3">04</span>Stories
-            </a>
-          </li>
-
-          <li className="my-10">
-            <a
-              href="#"
-              className="inline-block text-3xl font-light text-white py-2 px-5
-             uppercase bg-button-gradient transition-all duration-500 
-             hover:bg-right hover:text-green-500 hover:translate-x-2
-             active:bg-right active:text-green-500 active:translate-x-2"
-            >
-              <span className="mr-3">05</span>Book now
-            </a>
-          </li>
+          {
+            [
+              "About Natour",
+              "Your benifits",
+              "Popular tours",
+              "Stories",
+              "Book now"
+            ].map((src, index) => (
+              <li key={index} className="my-10">
+                <a
+                  href="#"
+                  className="inline-block text-3xl font-light text-white py-2 px-5 uppercase bg-button-gradient transition-all 
+                  duration-500 hover:bg-right hover:text-green-500 hover:translate-x-2 active:bg-right 
+                  active:text-green-500 active:translate-x-2"
+                >
+                  <span className="mr-3">0{index+1}</span>{src}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </nav>
     </navigation>

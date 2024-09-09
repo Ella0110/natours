@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import GradientBackground from "../component/GradientBackground";
 import Button from "../component/Button";
 import nextConfig from "../../../next.config.mjs";
 

@@ -22,46 +22,20 @@ export default function Footer() {
         <div className="w-[45%]">
           <div className="border-t-2 border-solid border-gray-500 pt-4 inline-block">
             <ul className="">
-              <li className="inline-block mr-4">
-                <a
-                  href="#"
-                  className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
+              {["Company", "Contact us", "Carrers", "Privacy policy"].map(
+                (src, index) => (
+                  <li key={index} className="inline-block mr-4">
+                    <a
+                      href="#"
+                      className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
                             hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
                             active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
-                >
-                  Company
-                </a>
-              </li>
-              <li className="inline-block mr-4">
-                <a
-                  href="#"
-                  className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
-                            hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
-                            active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
-                >
-                  Contact us
-                </a>
-              </li>
-              <li className="inline-block mr-4">
-                <a
-                  href="#"
-                  className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
-                            hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
-                            active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
-                >
-                  Carrers
-                </a>
-              </li>
-              <li className="inline-block mr-4">
-                <a
-                  href="#"
-                  className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
-                            hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
-                            active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
-                >
-                  Privacy policy
-                </a>
-              </li>
+                    >
+                      {src}
+                    </a>
+                  </li>
+                )
+              )}
               <li className="inline-block">
                 <a
                   href="#"
@@ -77,7 +51,7 @@ export default function Footer() {
         </div>
         <div className="w-[45%]">
           <p className="border-t-2 border-solid border-gray-500 text-gray-300 pt-4 w-4/5 float-right">
-          Built by {" "}
+            Built by{" "}
             <a
               href="#"
               className="
@@ -88,7 +62,7 @@ export default function Footer() {
             >
               Ella
             </a>{" "}
-            as part of an online practice project for the {" "}
+            as part of an online practice project for the{" "}
             <a
               href="#"
               className="
@@ -97,15 +71,12 @@ export default function Footer() {
                         active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]
                         "
             >
-              Advanced CSS and Sass 
+              Advanced CSS and Sass
             </a>{" "}
-             course. Copyright &copy; Jonas Schmedtmann. You are 100% allowed to use
-            this webpage for both personal and commercial use, but NOT to claim
-            it as your own design. Attribution to the original creator, Jonas Schmedtmann, is appreciated!
-
-
-
-            
+            course. Copyright &copy; Jonas Schmedtmann. You are 100% allowed to
+            use this webpage for both personal and commercial use, but NOT to
+            claim it as your own design. Attribution to the original creator,
+            Jonas Schmedtmann, is appreciated!
           </p>
         </div>
       </div>
