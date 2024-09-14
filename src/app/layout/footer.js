@@ -4,7 +4,7 @@ import nextConfig from "../../../next.config.mjs";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-900 py-32 text-base text-gray-400">
+    <footer className="bg-zinc-900 py-32 text-gray-400">
       <div className="text-center mb-16">
         <picture className="w-32 h-auto inline-block">
           <Image
@@ -12,22 +12,30 @@ export default function Footer() {
             alt="Full logo"
             width={200}
             height={200}
-            className="w-32 h-auto"
+            className="w-32 h-auto hidden md:block"
+          />
+
+          <Image
+            src={`${nextConfig.basePath}/img/logo-green-small-1x.png`}
+            alt="Full logo"
+            width={200}
+            height={200}
+            className="w-32 h-auto block md:hidden"
           />
         </picture>
       </div>
       {/* row */}
-      <div className="flex flex-wrap justify-between max-w-[75rem] my-0 mx-auto">
+      <div className="flex flex-col p-10 md:flex-row gap-9 md:gap-0 items-center md:items-start md:justify-between max-w-[78rem] my-0 mx-auto">
         {/* col-1-of-2 */}
-        <div className="w-[45%]">
-          <div className="border-t-2 border-solid border-gray-500 pt-4 inline-block">
-            <ul className="">
+        <div className="w-3/4 md:w-[45%]">
+          <div className="border-t-2 border-solid w-full border-gray-500 pt-4 inline-block">
+            <ul className="flex items-center flex-wrap justify-center">
               {["Company", "Contact us", "Carrers", "Privacy policy"].map(
                 (src, index) => (
                   <li key={index} className="inline-block mr-4">
                     <a
                       href="#"
-                      className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
+                      className="text-gray-300 whitespace-nowrap bg-zinc-900 uppercase inline-block transition-all
                             hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
                             active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
                     >
@@ -49,8 +57,8 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-[45%]">
-          <p className="border-t-2 border-solid border-gray-500 text-gray-300 pt-4 w-4/5 float-right">
+        <div className="w-3/4 md:w-[45%]">
+          <p className="border-t-2 border-solid border-gray-500 text-gray-300 pt-4 float-right">
             Built by{" "}
             <a
               href="#"
