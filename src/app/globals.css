@@ -133,7 +133,7 @@
 
 /* change the first element in circle can make the circle zoom in/out */
 .clip-path-circle {
-  clip-path: circle(30% at 50% 50%);
+  clip-path: circle(45% at 50% 50%);
 }
 
 .icon-basic-world {
@@ -153,7 +153,7 @@
 }
 
 .heading-secondary {
-  @apply text-4xl uppercase font-bold inline-block bg-gradient-to-r from-emerald-400 to-lime-500 bg-clip-text text-transparent tracking-[2px] transition-all;
+  @apply text-xl md:text-2xl lg:text-4xl uppercase font-bold inline-block bg-gradient-to-r from-emerald-400 to-lime-500 bg-clip-text text-transparent tracking-[1px] md:tracking-[2px] transition-all;
   @apply hover:skew-y-1 hover:skew-x-12 hover:scale-[1.1];
 }
 

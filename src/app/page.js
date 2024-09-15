@@ -10,16 +10,16 @@ import Popup from "./layout/popup";
 
 export default function Home() {
   return (
-    <main className="text-gray-500">
-      <Navigation />
-      <Header />
+    <main className="text-gray-500 text-xs md:text-base">
+      <Navigation /> 
+      <Header /> 
       <SectionAbout />
       <SectionFeatures />
-      <SectionTours />
+      <SectionTours /> 
       <SectionStory />
       <SectionBook />
       <Footer />
-      <Popup />
+      <Popup /> 
     </main>
   );
 }

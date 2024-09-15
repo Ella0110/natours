@@ -4,7 +4,7 @@ export default function Navigation() {
       <input type="checkbox" className="hidden peer" id="navi-toggle" />
       <label
         for="navi-toggle"
-        className=" flex items-center justify-center bg-white h-16 w-16 fixed top-12 right-12 rounded-full z-40
+        className=" flex items-center justify-center bg-white h-16 w-16 fixed top-8 right-8 lg:top-12 lg:right-12 rounded-full z-40
           shadow-lg cursor-pointer group"
       >
         {/* !!! new knowledge:group-[.peer:checked+&]: !!!*/}
@@ -49,10 +49,10 @@ export default function Navigation() {
               "Stories",
               "Book now"
             ].map((src, index) => (
-              <li key={index} className="my-10">
+              <li key={index} className="my-5 md:my-10">
                 <a
                   href="#"
-                  className="inline-block text-3xl font-light text-white py-2 px-5 uppercase bg-button-gradient transition-all 
+                  className="inline-block text-2xl md:text-3xl font-light text-white py-2 px-5 uppercase bg-button-gradient transition-all 
                   duration-500 hover:bg-right hover:text-green-500 hover:translate-x-2 active:bg-right 
                   active:text-green-500 active:translate-x-2"
                 >

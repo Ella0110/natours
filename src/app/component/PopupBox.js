@@ -6,7 +6,7 @@ const PopupBox = ({ children }) => {
     >
       <div className="h-[100vh] w-full backdrop-blur-md"></div>
       <div
-        className="bg-white w-1/2 rounded-sm absolute move_to_center scale-50 shadow-lg opacity-0 overflow-hidden transition-all 
+        className="bg-white w-3/4  md:w-1/2 rounded-sm absolute move_to_center scale-50 shadow-lg opacity-0 overflow-hidden transition-all 
                     table duration-900 z-50 group-target:opacity-100 group-target:visible group-target:scale-100 
                     group-target:-translate-x-1/2 group-target:-translate-y-1/2 group-target:transition-all group-target:duration-700"
       >
