@@ -29,7 +29,7 @@ export default function Navigation() {
         </span>
       </label>
       <div
-        className="h-12 w-12 rounded-full fixed top-14 right-14 z-20 transition-transform duration-500
+        className="h-12 w-12 rounded-full fixed top-9 right-9 lg:top-14 lg:right-14 z-20 transition-transform duration-500
       bg-gradient-radial from-lime-400 to-emerald-500 peer-checked:scale-[2000]"
       >
         &nbsp;
