@@ -12,9 +12,9 @@ const Card = ({
   cardPrice,
 }) => {
   return (
-    <div className="relative h-96 perspective-custom group">
+    <div className="lg:relative lg:h-96 perspective-custom group">
       {/* 1/3 card-side card-side-front */}
-      <div className="text-lg h-[30rem] absolute top-0 left-0 w-full rounded-lg overflow-hidden shadow-xl preserve-3d group-hover:rotate-y-180 bg-white backface-hidden transition-transform duration-700">
+      <div className="text-lg h-[30rem] lg:absolute lg:top-0 lg:left-0 w-full rounded-lg overflow-hidden shadow-xl preserve-3d group-hover:rotate-y-180 bg-white backface-hidden transition-transform duration-700">
         <div
           className={`bg-cover h-52 bg-blend-screen clip-path-card ${gradientImg}`}
         >

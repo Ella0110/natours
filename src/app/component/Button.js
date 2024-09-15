@@ -8,10 +8,10 @@ const Button = ({ href, onClick, children, className, variant = 'white', size = 
     }
 
     const sizes = {
-        small: "py-2 px-4 text-sm",
-        medium: "py-4 px-8 text-base",
-        large: "py-6 px-12 text-lg",
-        text: "py-4 px-1 text-sm"
+        small: "py-2 px-4 text-xs md:text-sm",
+        medium: "py-4 px-8 text-sm md:text-base",
+        large: "py-6 px-12 text-base md:text-lg",
+        text: "py-4 px-1 text-xs md:text-sm"
     }
 
     const classNames = `${baseStyle} ${variants[variant]} ${sizes[size]} ${className}`;

@@ -5,7 +5,7 @@ import Review from "@/app/component/Review";
 
 export default function SectionStory() {
   return (
-    <section className="p-40 relative">
+    <section className="p-5 md:p-10 lg:p-40 relative">
       <div className="absolute top-0 left-0 h-full w-full z-[-1] opacity-15">
         {/*video can not play because should be 'autoPlay' not 'autoplay', it should be 'P' because of JSX*/}
         <video className="h-full w-full object-cover" autoPlay muted loop>

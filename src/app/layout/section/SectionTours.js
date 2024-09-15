@@ -3,13 +3,13 @@ import Card from "@/app/component/Card";
 
 export default function SectionTours() {
   return (
-    <section className="pt-60 pb-60 -mt-40 bg-white" id="section-tours">
+    <section className="pt-40 pb-20  md:px-40 lg:px-0  lg:py-60  -mt-40 bg-white" id="section-tours">
       <div className="text-center mb-20">
         <h2 className="heading-secondary">Most Popular Tours</h2>
       </div>
-      <div className="flex flex-wrap justify-between max-w-[70rem] mx-auto">
+      <div className="flex px-10 gap-10  max-w-[25rem] md:gap-20 lg:gap-0 flex-col lg:flex-row lg:flex-wrap justify-between lg:max-w-[70rem] mx-auto">
         {/* 1/3 card */}
-        <div className="basis-[30%]">
+        <div className="lg:basis-[30%]">
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card
@@ -25,7 +25,7 @@ export default function SectionTours() {
           />
         </div>
 
-        <div className="basis-[30%]">
+        <div className="lg:basis-[30%]">
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card
@@ -41,7 +41,7 @@ export default function SectionTours() {
           />
         </div>
 
-        <div className="basis-[30%]">
+        <div className="lg:basis-[30%]">
           {/* card gradientImg, gradientColor, cardHeading, cardDetail_1, cardDetail_2, 
           cardDetail_3, cardDetail_4, cardDetail_5, cardPrice*/}
           <Card

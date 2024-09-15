@@ -3,10 +3,10 @@ import Radio from "@/app/component/Radio";
 
 export default function SectionBook() {
   return (
-    <section className="p-40 bg-gradient-to-tr from-lime-500 to-green-500">
+    <section className="p-10 md:p-40 bg-gradient-to-tr from-lime-500 to-green-500">
       <div className="max-w-[70rem] mx-auto">
-        <div className="bg-nat-10 bg-cover bg-center rounded-sm shadow-xl">
-          <div className="w-1/2 p-10">
+        <div className="bg-nat-11 lg:bg-nat-10 bg-cover bg-center rounded-sm shadow-xl">
+          <div className="lg:w-1/2 p-5 md:p-10">
             <form action="#">
               <div className="my-10">
                 <h2 className="heading-secondary">Start booking now</h2>
@@ -20,7 +20,7 @@ export default function SectionBook() {
                   name=""
                   required
                   className="text-base p-3 text-inherit rounded-sm block border-b-2 border-b-transparent
-                                w-4/5 transition-all bg-white bg-opacity-50 border-none focus:shadow-sm peer
+                                w-full lg:w-4/5 transition-all bg-white bg-opacity-50 border-none focus:shadow-sm peer
                                 focus:outline-none focus:border-b-[3px] focus:border-b-green-600 focus:border-solid "
                 />
                 <label
@@ -40,7 +40,7 @@ export default function SectionBook() {
                   id="email"
                   required
                   className="text-base p-3 text-inherit rounded-sm block border-b-2 border-b-transparent
-                                w-4/5 transition-all bg-white bg-opacity-50 border-none focus:shadow-sm peer
+                                w-full lg:w-4/5 transition-all bg-white bg-opacity-50 border-none focus:shadow-sm peer
                                 focus:outline-none focus:border-b-[3px] focus:border-b-green-600 focus:border-solid "
                 />
                 <label
