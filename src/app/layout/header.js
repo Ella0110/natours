@@ -13,7 +13,7 @@ export default function Header() {
           alt="logo"
           width={100}
           height={100}
-          className="w-2/3 md:w-full"
+          className="w-1/2 lg:w-full"
         ></Image>
       </div>
       <div className="absolute move_to_center">
