@@ -5,7 +5,7 @@ const Review = ({ ReviewInfoImg, ReviewName, Heading, Paragraph, children}) => {
   return (
     <div className="max-w-[25rem] lg:max-w-[70rem] mx-auto mb-20">
       {/*story*/}
-      <div className=" lg:w-3/4  pt-10  mx-auto rounded-sm bg-white bg-opacity-60 shadow-lg p-10 pt-0 lg:p-14 lg:pl-20 lg:-skew-x-12 group">
+      <div className=" lg:w-3/4   mx-auto rounded-sm bg-white bg-opacity-60 shadow-lg p-10 pt-0 lg:p-14 lg:pl-20 lg:-skew-x-12 group">
         {/*story-shape*/}
         <figure className="relative -translate-x-4 clip-path-circle float-left shape-outside   lg:skew-x-12">
           <Image
