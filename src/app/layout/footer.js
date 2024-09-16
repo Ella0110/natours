@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="w-3/4 md:w-[45%]">
           <div className="border-t-2 border-solid w-full border-gray-500 pt-4 inline-block">
             <ul className="flex items-center flex-wrap justify-center">
-              {["Company", "Contact us", "Carrers", "Privacy policy"].map(
+              {["Career", "Contact us", "Privacy policy"].map(
                 (src, index) => (
                   <li key={index} className="inline-block mr-4">
                     <a
@@ -44,14 +44,24 @@ export default function Footer() {
                   </li>
                 )
               )}
-              <li className="inline-block">
+              <li className="inline-block mr-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ella-chunmeiwu/"
                   className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
                             hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
                             active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
                 >
-                  Terms
+                  LinkedIn
+                </a>
+              </li>
+              <li className="inline-block">
+                <a
+                  href="https://github.com/Ella0110"
+                  className="text-gray-300 bg-zinc-900 uppercase inline-block transition-all
+                            hover:text-green-700 hover:shadow-xl hover:rotate-6 hover:scale-[1.3]
+                            active:text-green-700 active:shadow-xl active:rotate-6 active:scale-[1.3]"
+                >
+                  Github
                 </a>
               </li>
             </ul>
