@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "@/app/component/Button";
-import nextConfig from "../../../../next.config.js/index.js";
+import nextConfig from "../../../../next.config";
 
 export default function SectionAbout() {
     return (

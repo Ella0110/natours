@@ -1,4 +1,4 @@
-import nextConfig from "./next.config.js/index.js";
+import nextConfig from "./next.config";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

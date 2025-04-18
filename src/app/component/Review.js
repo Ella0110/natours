@@ -1,5 +1,5 @@
 import Image from "next/image";
-import nextConfig from "../../../next.config.js/index.js";
+import nextConfig from "../../../next.config";
 
 const Review = ({
     ReviewInfoImg,
