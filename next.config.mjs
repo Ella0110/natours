@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: ''
+module.exports = {
+    basePath: "",
 };
-
-export default nextConfig;
